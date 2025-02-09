@@ -20,13 +20,13 @@ function Home() {
 
   return (
     <div className="max-w-3xl mx-auto mt-6">
-      {/* Bench Table Section */}
+      {/* bench  Section */}
       <Card className="p-4 shadow-lg bg-amber-100">
         <Typography
           variant="h5"
           className="text-center font-semibold border-b-2 border-black pb-2"
         >
-          Bench Table
+          Top Player
         </Typography>
         <div className="max-w-full overflow-x-auto">
           {PlayerBenchData.length ? (

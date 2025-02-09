@@ -31,7 +31,7 @@ function index() {
 
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#ff5722" }} data-testid="navbar">
+    <AppBar position="static" sx={{ backgroundColor: "#ed8936" }} data-testid="navbar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
@@ -84,7 +84,10 @@ function index() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu} data-testid={`${page.toLowerCase()}-mobile`}>
-                  <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
+                  <Link to={`/${page}`} style={{ textDecoration: "none", color: "inherit", width: "100%" }}>
+                    <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
+                  </Link>
+
                 </MenuItem>
               ))}
             </Menu>
@@ -131,7 +134,7 @@ function index() {
 
         </Toolbar>
       </Container>
-    </AppBar>
+    </AppBar >
   );
 }
 export default index;

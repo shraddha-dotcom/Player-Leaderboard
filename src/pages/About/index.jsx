@@ -74,7 +74,7 @@ const About = () => {
           <h2 className="text-2xl font-semibold mb-6 text-blue-900">Our Offices</h2>
           <div className="flex flex-wrap justify-center gap-8">
             {/* Office 1 */}
-            <div className="bg-gray-800 text-white rounded-lg shadow-md p-6 w-80 flex flex-col items-center">
+            <div className="bg-orange-500 hover:bg-orange-300 text-white rounded-lg shadow-md p-6 w-80 flex flex-col items-center">
               <h3 className="text-xl font-semibold mb-2">Head Office</h3>
               <p className="text-gray-300 text-center">
                 4 Sports Avenue <br />
@@ -84,7 +84,7 @@ const About = () => {
             </div>
 
             {/* Office 2 */}
-            <div className="bg-gray-800 text-white rounded-lg shadow-md p-6 w-80 flex flex-col items-center">
+            <div className="bg-orange-500 hover:bg-orange-300 text-white rounded-lg shadow-md p-6 w-80 flex flex-col items-center">
               <h3 className="text-xl font-semibold mb-2">Branch Office</h3>
               <p className="text-gray-300 text-center">
                 7 Street, <br />

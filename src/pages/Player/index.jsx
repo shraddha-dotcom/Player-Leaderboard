@@ -18,7 +18,7 @@ function index() {
 
 
   return <div className="m-4" >
-    <h1 className="text-center border-2 border-black bg-blue-300 p-2 m-4 ">Player Table</h1>
+    <h1 className="text-center border-2 border-black bg-orange-500 p-2 m-4 ">Player Table</h1>
     <Table PlayerData={PlayerData} /></div>;
 }
 
